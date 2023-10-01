@@ -1,1 +1,23 @@
-/* место для вашего кода */
+.header {
+    height: 100px;
+    background-color: rgb(165, 42, 114);
+}
+
+.header__menu {
+    background-color: rgb(255, 13, 13);
+    display: flex;
+}
+
+.header__links-list {
+    background-color: rgb(5, 241, 5);
+    display: flex;
+}
+
+.header__links-list-item {
+    background-color: rgb(10, 10, 233);
+}
+
+.header__logo {
+    background-color: black;
+}
+
