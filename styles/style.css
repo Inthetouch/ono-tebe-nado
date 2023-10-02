@@ -1,23 +1,24 @@
 .header {
-    height: 100px;
-    background-color: rgb(165, 42, 114);
+    display: grid;
+    margin: 92px 49px 92px 51px;
+    grid-template-columns: auto 1fr auto;
 }
 
-.header__menu {
-    background-color: rgb(255, 13, 13);
-    display: flex;
+.header__link {
+    text-decoration: none;
 }
 
 .header__links-list {
-    background-color: rgb(5, 241, 5);
     display: flex;
+    column-gap: 32px; 
 }
 
-.header__links-list-item {
-    background-color: rgb(10, 10, 233);
+.header__links-list-item_no-bullit {
+    list-style-type: none;
 }
 
 .header__logo {
-    background-color: black;
+    display: flex;
+    height: 105px;
+    width: 148px;
 }
-
