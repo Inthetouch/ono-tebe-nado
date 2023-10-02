@@ -8,9 +8,18 @@
     text-decoration: none;
 }
 
+.header__link_active {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .header__links-list {
     display: flex;
-    column-gap: 32px; 
+    column-gap: 32px;
 }
 
 .header__links-list-item_no-bullit {
@@ -21,4 +30,36 @@
     display: flex;
     height: 105px;
     width: 148px;
+    flex-shrink: 0;
+    margin: 0 355px 0 209px;
 }
+
+.address {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; 
+}
+
+.cover {
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 757px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.overlay {
+    opacity: 0.6;
+    background: #000;
+    position: absolute;
+}
+
+
