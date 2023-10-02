@@ -62,4 +62,25 @@
     position: absolute;
 }
 
+.cover__title {
+    display: grid;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    text-transform: uppercase;
+}
 
+.aligned-text {
+    padding: 165px 50px 477px;
+}
+
+.aligned-text_first {
+    letter-spacing: 30px;
+}
+
+.aligned-text_two {
+    letter-spacing: 60px;
+}
