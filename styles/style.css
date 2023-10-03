@@ -50,20 +50,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 757px;
-    flex-shrink: 0;
     display: flex;
-    flex-direction: column;
     position: relative;
+    flex-direction: column;
 }
 
 .overlay {
-    opacity: 0.6;
-    background: #000;
+    background-color: rgb(0, 0, 0, 0.6);
     position: absolute;
 }
 
 .cover__title {
-    display: grid;
     color: #FFF;
     font-family: Raleway;
     font-size: 100px;
@@ -71,10 +68,11 @@
     font-weight: 700;
     line-height: 115%;
     text-transform: uppercase;
-}
-
-.aligned-text {
+    display: grid;
+    z-index: 1;
     padding: 165px 50px 477px;
+    gap: 20px;
+    
 }
 
 .aligned-text_first {
@@ -83,4 +81,28 @@
 
 .aligned-text_two {
     letter-spacing: 60px;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_center_first {
+    letter-spacing: 30px;
+}
+
+.aligned-text_center_two {
+    letter-spacing: 60px;
+}
+
+.aligned-text_right {
+    text-align: end;
+}
+
+.aligned-text_right_first {
+    letter-spacing: 60px;
+}
+
+.aligned-text_right_two {
+    letter-spacing: 30px;
 }
