@@ -33,7 +33,7 @@
     height: 105px;
     width: 148px;
     flex-shrink: 0;
-    margin: 0 355px 0 209px;
+    margin: 0 350px 0 209px;
 }
 
 .address {
@@ -44,7 +44,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px;
+    line-height: 18px;
 }
 
 .cover {
@@ -96,12 +96,13 @@
     display: block;
     text-align: end;
     margin-right: 20px;
+    margin-top: 5px;
 }
 
 .cover__description {
     display: flex;
     justify-content: flex-end;
-    margin: 135px 50px 50px 0;
+    margin: 130px 50px 50px 0;
     gap: 78px;
     align-items: center;
 }
