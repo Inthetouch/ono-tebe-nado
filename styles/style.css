@@ -89,11 +89,13 @@
 .aligned-text_center {
     display: block;
     text-align: center;
+    margin-top: 5px;
 }
 
 .aligned-text_right {
     display: block;
     text-align: end;
+    margin-right: 10px;
 }
 
 .cover__description {
@@ -224,7 +226,7 @@
 }
 
 .about {
-    margin: 181px 50px 180px;
+    margin: 181px 25px 180px;
     display: grid;
     grid-template-columns: 487px 1fr;
     justify-items: center;
