@@ -89,19 +89,19 @@
 .aligned-text_center {
     display: block;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 .aligned-text_right {
     display: block;
     text-align: end;
-    margin-right: 25px;
+    margin-right: 22px;
 }
 
 .cover__description {
     display: flex;
     justify-content: flex-end;
-    margin: 147px 50px 50px 0;
+    margin: 137px 50px 50px 0;
     gap: 78px;
     align-items: center;
 }
@@ -115,8 +115,7 @@
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase;
-    word-spacing: 16px;
-    margin-bottom: 5px;
+    word-spacing: 20px;
 }
 
 .bet-button {
@@ -133,7 +132,6 @@
     line-height: normal;
     text-transform: uppercase;
     cursor: pointer;
-    margin-bottom: 5px;
 }
 
 .lots {
