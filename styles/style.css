@@ -1,6 +1,6 @@
 .header {
     display: grid;
-    margin: 92px 49px 80px 51px;
+    margin: 82px 49px 90px 51px;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     justify-items: center;
@@ -95,13 +95,13 @@
 .aligned-text_right {
     display: block;
     text-align: end;
-    margin-right: 22px;
+    margin-right: 20px;
 }
 
 .cover__description {
     display: flex;
     justify-content: flex-end;
-    margin: 137px 50px 50px 0;
+    margin: 135px 50px 50px 0;
     gap: 78px;
     align-items: center;
 }
@@ -115,7 +115,7 @@
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase;
-    word-spacing: 20px;
+    word-spacing: 18px;
 }
 
 .bet-button {
