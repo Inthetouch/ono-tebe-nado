@@ -47,6 +47,10 @@
     line-height: 22.3px;
 }
 
+.address__street {
+    width: 240px;
+}
+
 .cover {
     background-image: url(../images/cover.jpg);
     background-size: cover;
